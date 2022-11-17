@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cour js - Orienter Object</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <h1>Ajoutez un jeu!</h1>
+    <div class="validation">Livre ajouté</div>
+    <form class="form-game">
+        <div class="input">
+            <label for="name">Titre</label>
+            <input type="text" name="name" id="name">
+        </div>
+
+        <div class="input">
+            <label for="dev">Developpeur</label>
+            <input type="text" name="name" id="dev">
+        </div>
+
+        <div class="input">
+            <label for="annee">Annee</label>
+            <input type="number" name="name" id="annee">
+        </div>
+
+        <button type="submit" class="form-submit">Soumettre</button>
+    </form>
+    <hr>
+    <table class="tab-Game">
+        <thead>
+            <th>Titre</th>
+            <th>Développeur</th>
+            <th>Année</th>
+        </thead>
+        <tbody class="tab-body-game">
+            <tr>
+                <td>Grand theft auto</td>
+                <td>Rock Star Games</td>
+                <td>2013</td>
+                <td><button>❌</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="app.js"></script>
+</body>
+
+</html>
